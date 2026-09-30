@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How I integrate · Khanh B. Trang</title>
+<meta name="description" content="Genetics prioritises variants; multiomics places them in cells and links them to genes. The work is at the crossings, and at knowing where each crossing can fail.">
+<meta property="og:title" content="How I integrate · Khanh B. Trang">
+<meta property="og:description" content="Genetics prioritises variants; multiomics places them in cells and links them to genes. The work is at the crossings, and at knowing where each crossing can fail.">
+<meta property="og:image" content="img/og.jpg">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/site.css">
+<script type="module" src="js/pages.js"></script>
+</head>
+<body class="page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast mast-light">
+  <a class="mast-name" href="./">K. B. TRANG</a>
+  <nav aria-label="Site"><a href="how.html" aria-current="page">How I integrate</a><a href="stories/">Stories</a><a href="work.html">Work</a><a href="about.html">About</a></nav>
+</header>
+<main id="main" class="page-main">
+<article class="wrap">
+  <header class="p-head">
+    <h1>How I integrate</h1>
+    <p class="lede">Genetics prioritises variants. Multiomics places them in cells and links them to genes. My work is at the crossings, and at knowing where each crossing can fail.</p>
+  </header>
+
+  <section class="p-sec" aria-labelledby="h-stream">
+    <h2 id="h-stream" class="sr-only">The evidence streamline</h2>
+    <div class="streamline" data-open="3"></div>
+  </section>
+
+  <section class="p-sec" aria-labelledby="h-matrix">
+    <h2 id="h-matrix">What would change my conclusion</h2>
+    <p class="p-intro">A target nomination is only as good as the evidence that could have overturned it. Two genes from the bone CRISPRi screen, scored the same way:</p>
+    <p class="legend"><span class="state"><i class="g sup"></i>Supporting</span><span class="state"><i class="g con"></i>Conflicting</span><span class="state"><i class="g inc"></i>Mixed</span><span class="state"><i class="g unt"></i>Not in this summary</span></p>
+    <div class="tbl-wrap"><table class="matrix">
+      <thead><tr><th scope="col">Candidate</th><th scope="col">Statistical genetics</th><th scope="col">Chromatin contact</th><th scope="col">CRISPRi</th><th scope="col">Knockdown assays</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">ARID5B</th><td><span class="state"><i class="g sup"></i>BMD GWAS locus</span></td><td><span class="state"><i class="g sup"></i>Predicted</span></td><td><span class="state"><i class="g sup"></i>Responsive</span></td><td><span class="state"><i class="g sup"></i><span class="r-n">3/3</span> assays</span></td></tr>
+        <tr><th scope="row">NCOA3</th><td><span class="state"><i class="g sup"></i>BMD GWAS locus</span></td><td><span class="state"><i class="g con"></i>Not predicted</span></td><td><span class="state"><i class="g sup"></i>Responsive</span></td><td><span class="state"><i class="g sup"></i><span class="r-n">3/3</span> assays</span></td></tr>
+        <tr><th scope="row">All responsive genes (<span class="r-n">23</span>)</th><td><span class="state"><i class="g sup"></i>Prioritised elements</span></td><td><span class="state"><i class="g inc"></i><span class="r-n">8</span> predicted, <span class="r-n">15</span> not</span></td><td><span class="state"><i class="g sup"></i>Responsive</span></td><td><span class="state"><i class="g unt"></i>See the paper</span></td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Had we required chromatin contact, we would have discarded NCOA3, one of the four genes that held up in every assay. When layers disagree, the disagreement decides the next experiment.</p>
+    <p class="src">Source: Conery, Pippin, Wagley, Trang et al., <i>Genome Biology</i> 2025. <a href="stories/bone.html">The bone story →</a></p>
+  </section>
+
+  <section class="p-sec" aria-labelledby="h-lens">
+    <h2 id="h-lens">The clinical and population lens</h2>
+    <dl class="rows">
+      <dt>Choose the question <span class="r-n">MD</span></dt>
+      <dd>Clinical training shapes the phenotype before any model runs: what counts as a case, which comparison matters to a patient, which outcome would change care.</dd>
+      <dt>Design for the population <span class="r-n">MPH</span></dt>
+      <dd>Reference scores calibrated across populations. Endpoint transformations chosen for the estimand. Sample sizes set from the analysis, not from convenience.</dd>
+      <dt>Protect participants</dt>
+      <dd>Consent and analysis plans that state what genetic information is and is not returned, how long data are kept, and who may access them.</dd>
+    </dl>
+  </section>
+
+  <section class="p-sec" aria-labelledby="h-did">
+    <h2 id="h-did">Is the difference real?</h2>
+    <p class="p-intro">Tissue studies compare diseased and healthy samples, but disease can shift a whole organ, not just the lesion. Move the sliders. <span class="illus">Synthetic data, for illustration.</span></p>
+    <div class="did" data-did></div>
+    <p class="caption">Difference-in-differences assumes that, without the disease, lesion and adjacent tissue would differ by the same amount in cases as in controls. When that holds, it isolates the lesion-specific change; the naive comparison cannot.</p>
+  </section>
+
+  <section class="p-sec" aria-labelledby="h-prac">
+    <h2 id="h-prac">Practices</h2>
+    <ul class="plain">
+      <li>QC rules for single-cell and spatial data written as automated pass/warn/fail checks, so a pipeline stops rather than quietly passes.</li>
+      <li>Reference panels identity-checked before any LD-dependent estimate.</li>
+      <li>Every quoted number traced to the file that produced it.</li>
+      <li>Ongoing work: atlas-scale single-nucleus and spatial transcriptomics, ambient-RNA and doublet modelling, deconvolution benchmarking, drug-target Mendelian randomisation, paired chromatin-accessibility and 3D-genome analyses.</li>
+    </ul>
+  </section>
+</article>
+</main>
+<footer class="foot"><div class="wrap">
+  <span>© 2026 Khanh B. Trang · <a href="mailto:Dr.KhanhBTrang@gmail.com">Dr.KhanhBTrang@gmail.com</a></span>
+  <span>Numbers come from the cited papers; ongoing work is described by method only.</span>
+</div></footer>
+<dialog class="lightbox" aria-label="Figure"><form method="dialog"><button class="lb-close" aria-label="Close figure">×</button></form><img alt=""><p class="lb-cap"></p></dialog>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Copyright (c) 2026 Khanh B. Trang. All rights reserved.
+
+This repository publishes the personal website of Khanh B. Trang: its text, page
+design, illustrations, animations, narration audio, data files and code ("the
+Work").
+
+You may view the website in a web browser. No other licence is granted. You may
+not copy, modify, adapt, redistribute, republish, mirror, sell, or otherwise use
+any part of the Work, including to train or evaluate machine-learning models,
+without prior written permission from the copyright holder.
+
+To ask for permission, email Dr.KhanhBTrang@gmail.com and describe what you would
+like to use and how.
+
+This repository is public so that GitHub Pages can serve the website. GitHub's
+Terms of Service let GitHub users view and fork public repositories on GitHub;
+that grants no rights beyond those Terms.
+
+Third-party components keep their own licences. Nothing above limits the rights
+those licences give you in the original components:
+
+- Source Serif 4, Atkinson Hyperlegible Next and Martian Mono typefaces: SIL Open
+  Font License 1.1 (see fonts/OFL-source-serif-4.txt,
+  fonts/OFL-atkinson-hyperlegible-next.txt and fonts/OFL-martian-mono.txt)
+- Figures reproduced from published papers (img/figures/): each figure remains
+  under the copyright and licence of its original publication, which is named in
+  its caption on the website. The Genome Biology, eLife and BJC Reports articles
+  are published under the Creative Commons Attribution 4.0 International licence
+  (CC BY 4.0); preprint figures carry the licence under which they were posted.
+
+The illustrated scenes and the narration were generated for this site with
+Azure OpenAI image and audio models. The dot animations of the body, tissues and
+cell types are synthetic and contain no study data.
